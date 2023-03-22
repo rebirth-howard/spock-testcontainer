@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    url: jdbc:tc:mysql:8.0:///spoke-testcontainer
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
